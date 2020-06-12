@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">User Authentication</string>
+    <string name="title_activity_method_test">Method Test Activity</string>
+    <string name="title_activity_input_test">Input Test Activity</string>
+    <string name="title_activity_vibrate_test">Vibrate Test Activity</string>
+    <string name="title_activity_input_vibrate_one">Input Vibrate AddOrNot Activity</string>
+    <string name="title_activity_input_vibrate_two">Input Vibrate HintAndAdd Activity</string>
+    <string name="title_activity_input_normal">Input Normal Activity</string>
+    <string name="title_activity_record_sensor">Record Sensor Activity</string>
+    <string name="input_vibrate_type_mors">震动模式 摩尔斯电码</string>
+    <string name="input_vibrate_type_bin">震动模式 二进制编码</string>
+    <string name="input_vibrate_type_sel">震动模式 自定义编码</string>
+    <string name="vibrate_type_one">震动模式1（提示是否加上默想数字）</string>
+    <string name="vibrate_type_two_bin">震动模式2 二进制编码（提示一个运算数字）</string>
+    <string name="vibrate_type_two_mors">震动模式2 摩尔斯电码（提示一个运算数字）</string>
+    <string name="vibrate_type_two_sel">震动模式2 自定义编码（提示一个运算数字）</string>
+    <string name="vibrate_type_three">震动模式3（提示一个数字然后按提示后移动）</string>
+    <string name="audio_type_one">声音模式1（提示一个数字然后按提示后移动）</string>
+    <string name="normal_type">正常模式</string>
+
+
+    <string name="hint_audio_pad">首先请您选择要输入的字符所在的字符集合：\n
+            接下来系统将用震动的方式随机提示您一个数字N，震动模式表示的数字具体如下(0代表短震动，1代表长震动)：\n
+            0: 000  1: 001  2: 010\n
+            3: 011  4: 100  5: 101\n
+            系统提示给您的初始字符即为字符集中第N位字符，接下来系统每隔0.2秒用一次短震提示您选择的字符循环向后移一位(当前字符为最后一位时，下一位为该字符集第一位)\n
+            当前字符为您想要输入的字符时，请按PUSH按钮确认并结束一轮输入</string>
+    <string name="text_button_back"><![CDATA[<]]></string>
+</resources>

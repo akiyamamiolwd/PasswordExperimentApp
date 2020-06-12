@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mio.userauthentication.Activity.MethodTestActivity">
+
+    <Button
+        android:id="@+id/button_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="buttonNormalClick"
+        android:text="@string/normal_type" />
+
+    <Button
+        android:id="@+id/button_vibrate_type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_normal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="buttonVibrateType1Click"
+        android:text="@string/vibrate_type_one" />
+
+    <Button
+        android:id="@+id/button_vibrate_type2_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_vibrate_type1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="buttonVibrateType2BinClick"
+        android:text="@string/vibrate_type_two_bin" />
+
+    <Button
+        android:id="@+id/button_vibrate_type2_mors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_vibrate_type2_bin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="buttonVibrateType2MorsClick"
+        android:text="@string/vibrate_type_two_mors" />
+
+    <Button
+        android:id="@+id/button_vibrate_type2_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_vibrate_type2_mors"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="buttonVibrateType2SelClick"
+        android:text="@string/vibrate_type_two_sel" />
+
+
+    <Button
+        android:id="@+id/button_vibrate_type3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_vibrate_type2_sel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:onClick="buttonVibrateType3Click"
+        android:text="@string/vibrate_type_three" />
+
+</RelativeLayout>
